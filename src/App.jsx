@@ -25,7 +25,7 @@ const estilos = {
 <h1>Hola! soy {nombre}</h1>
 <strong style={estilos} >Este es un </strong>
  {boton}
-<li>pera</li>
+<li>peraa</li>
 <li>manzana</li>
 <li>banana</li>
 <li>narana</li>
