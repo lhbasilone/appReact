@@ -27,7 +27,7 @@ const estilos = {
  {boton}
 <li>peraa</li>
 <li>manzana</li>
-<li>banana</li>
+<li>bananadd/li>
 <li>narana</li>
 <li>frutilla</li>
 
