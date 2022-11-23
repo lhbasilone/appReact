@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/footer/Footer';
+
+
+
+
+
 
 function App() {
 
@@ -24,15 +30,17 @@ const estilos = {
     <div className="App">
 <h1>Hola! soy {nombre}</h1>
 <strong style={estilos} >Este es un </strong>
- {boton}
+{boton}
 <li>peraa</li>
 <li>manzana</li>
-<li>banana></li>
+<li>banana</li>
 <li>narana</li>
-<li>frutilla</li>
-<li>frutillaaaaaa</li>
 
-    </div>
+
+<Footer/>
+
+
+</div>
   );
 }
 
