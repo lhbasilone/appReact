@@ -2,9 +2,35 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+
+
+
+const boton = <button>Kamehameha</button>
+
+const nombre = "Goku"
+
+const estilos = {
+  color: "blue",
+  backgroundColor: "orange",
+  padding: 20,
+}
+
+
+
+
   return (
     <div className="App">
-<h1>Hola mundo!</h1>
+<h1>Hola! soy {nombre}</h1>
+<strong style={estilos} >Este es un </strong>
+ {boton}
+<li>pera</li>
+<li>manzana</li>
+<li>banana</li>
+<li>narana</li>
+<li>frutilla</li>
+
     </div>
   );
 }
